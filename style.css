@@ -1,7 +1,5 @@
 /* Global Reset and Base */
-*,
-*::before,
-*::after {
+*, *::before, *::after {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -121,8 +119,7 @@ footer {
 }
 
 /* Forms */
-input,
-textarea {
+input, textarea {
     width: 100%;
     padding: 10px;
     margin: 10px 0;
